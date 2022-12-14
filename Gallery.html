@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery Page</title>
+<link rel="stylesheet" type="text/CSS" href="main_CSS.css">
+<style>
+.posrel	{
+	position: relative;
+}
+.nodisp	{
+	display: none;
+}
+.texsty	{
+	font-family: 0.75em;
+	align: center;
+	color: #f2f2f2;
+	position: absolute;
+	padding: 0.5em 0.75em;
+	top=0
+}
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.next {
+	right: 0;
+	border-radius: 0.1875em 0 0 0.1875em;
+}
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 1em;
+	margin-top: -3.125em;
+	border-radius: 0 0.1em 0.1em 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+.capt {
+	text-align: center;
+	background-color: #222;
+	padding: 0.125em 1em;
+	color: white;
+}
+/*table*//*table high*//*table down*/
+table, th, td{
+	border: 0;
+	text-align: center;
+	cellpadding: 0;
+}
+</style>
+<head>
+<header>
+
+<nav class="upper"><ul>
+<li><a class="luh" href="index.html">Main</a></li>
+<li><strong>						Elecricity</strong></li>
+</ul></nav>
+</header>
+
+<aside class="lnb">
+</nav class="left"><ul>
+<li><a class="lan" href="Electron.html"><img class="nil" src="images/Electron.png" alt="Electron" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="lan" href="curcuit.html"><img class="nil" src="images/curcuit.png" alt="Curcuits" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="lan" href="Electrics.html"><img class="nil" src="images/Electrics.png" alt="Elecrics" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="lan" href="History.html"><img class="nil" src="images/History.png" alt="History" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="lan" href="Gallery.html"><img class="nil" src="images/Gallery.png" alt="Gallery" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="lan" href="login.html"><img class="nil" src="images/login.png" alt="sign-in" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="lan" href="signup.html"><img class="nil" src="images/signup.png" alt="sign-up" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="lan" href="FeedBack.html"><img class="nil" src="images/FB.png" alt="FeedBack" style="width=0.125em height=0.125em"></img></a></li>
+</ul>
+</aside></nav>
+<article class = "mta">
+
+<h2 style="text-align: center;">Gallery Images</h2>
+<br><br><br><br>
+
+<div class="posrel">
+ <div class="mySlides">
+ <div class="texsty">1/8</div>
+ <image src="images/Electron.png" alt = "Negetive are Electron" width = "70%" onclick = "currentImage(1)">
+</div>
+ <div class="mySlides">
+ <div class="texsty">2/8</div>
+ <image src="images/curcuit.png" alt = "simple Curcuit with a power source and a normal switch" width = "70%" onclick = "currentImage(2)">
+</div>
+ <div class="mySlides">
+ <div class="texsty">3/8</div>
+ <image src="images/cur.png" alt = "simple Curcuit with a power source, a normal switch an ampmetre, a diode, light bulb, and a voltmetre on a tangent current." width = "70%" onclick = "currentImage(3)">
+</div>
+ <div class="mySlides">
+ <div class="texsty">4/8</div>
+ <image src="images/Thunder1.png" alt = "Thunder" width = "70%">
+</div>
+ <div class="mySlides">
+ <div class="texsty">5/8</div>
+ <image src="images/Warn.png" alt = "Elecricity Warning Symbol" width = "70%" onclick = "currentImage(5)">
+</div>
+ <div class="mySlides">
+ <div class="texsty">6/8</div>
+ <image src="images/HEP.png" alt = "Hydro Electric Power Plant is made up of a dam and generators" width = "70%" onclick = "currentImage(6)">
+</div>
+ <div class="mySlides">
+ <div class="texsty">7/8</div>
+ <image src="images/spark.png" alt = "Sparks coming from the center of image" width = "70%" onclick = "currentImage(7)">
+ </div>
+ <div class="mySlides">
+ <div class="texsty">8/8</div>
+ <image src="images/img8.png" alt = "image8" width = "70%" onclick = "currentImage(8)">
+ </div>
+ <a class="prev" onclick="plusSlides(-1)"><</a><br>
+ <a class="next" onclick="plusSlides(1)">></a>
+</div>
+
+<div class="capt">
+<p id="caption" class="posrel">
+</div>
+<table>
+<tr>
+ <td>
+  <image src="images/Electron.png" alt = "Negetive are Electron" width = "70%" onclick = "currentImage(1)">
+ </td>
+ <td>
+  <image src="images/curcuit.png" alt = "simple Curcuit with a power source and a normal switch" width = "70%" onclick = "currentImage(2)">
+ </td>
+ <td>
+  <image src="images/cur.png" alt = "simple Curcuit with a power source, a normal switch an ampmetre, a diode, light bulb, and a voltmetre on a tangent current." width = "70%" onclick = "currentImage(3)">
+ </td>
+ <td>
+  <image src="images/img8.png" alt = "image8" width = "70%" onclick = "currentImage(8)">
+ </td>
+</tr>
+<tr>
+ <td>
+ <image src="images/Thunder1.png" alt = "Thunder" width = "70%">
+ </td>
+ <td>
+  <image src="images/Warn.png" alt = "Elecricity Warning Symbol" width = "70%" onclick = "currentImage(5)">
+ </td>
+ <td>
+  <image src="images/HEP.png" alt = "Hydro Electric Power Plant is made up of a dam and generators" width = "70%" onclick = "currentImage(6)">
+ </td>
+ <td>
+  <image src="images/spark.png" alt = "Sparks coming from the center of image" width = "70%" onclick = "currentImage(7)">
+ </td>
+</tr>
+<tr>
+ <td>
+  <image src="images/img9.png" alt = "extra1" width = "70%" onclick = "currentImage(9)">
+ </td>
+ <td>
+  <image src="images/img10.png" alt = "extra2" width = "70%" onclick = "currentImage(10)">
+  </td>
+ <td>
+  <image src="images/img11.png" alt = "extra3" width = "70%" onclick = "currentImage(11)">
+ </td>
+ <td>
+  <image src="images/img12.png" alt = "extra4" width = "70%" onclick = "currentImage(12)">
+ </td>
+</tr>
+<tr>
+ <td>
+</table>
+</article>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+ showSlides(slideIndex += n);
+}
+function currentImage(n) {
+ showSlides(slideIndex = n);
+}
+function showSlides(n) {
+ var i;
+ var slides = document.getElementsByClassName("mySlides");
+ var dots = document.getElementsByClassName("demo");
+ var captionText = document.getElementById("caption");
+ if (n > slides.length) {slideIndex = 1}
+ if (n < 1) {slideIndex = slides.length}
+ for (i = 0; i < slides.length; i++) {
+ slides[i].style.display = "none";
+ }
+ for (i = 0; i < dots.length; i++) {
+ dots[i].className = dots[i].className.replace(" active", "");
+ }
+ slides[slideIndex-1].style.display = "block";
+ dots[slideIndex-1].className += " active";
+ captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+<footer>
+<ul>
+<li><a class="fal" href="facebook.com"><img class="nif" src="images/facb.png" alt="FaceBook" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="fal" href="snapchat.com"><img class="nif" src="images/snapc.png" alt="SnapChat" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="fal" href="whatsapp.com"><img class="nif" src="images/whatp.png" alt="WhatsApp" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="fal" href="discord.com"><img class="nif" src="images/disbot.png" alt="Discord" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="fal" href="linkedin.com"><img class="nif" src="images/linkin.png" alt="LinkedIn" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="fal" href="glassdoor.com"><img class="nif" src="images/glassdr.png" alt="glassdoor" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="fal" href="twitter.com"><img class="nif" src="images/twitter.png" alt="Twitter" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="fal" href="tiktok.com"><img class="nif" src="images/ticto.png" alt="tictoc" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="fal" href="YouTube.com"><img class="nif" src="images/yout.png" alt="youtube" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="fal" href="gmail.com"><img class="nif" src="images/gomal.png" alt="gmail" style="width=0.125em height=0.125em"></img></a></li>
+<li><a class="fal" href="mail.com"><img class="nif" src="images/mailing.png" alt="mail.com" style="width=0.125em height=0.125em"></img></a></li>
+</ul>
+<p class= "fcr">&copy;copyright KOF</p>
+</footer>
+</body>
+</html>

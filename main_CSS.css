@@ -1,0 +1,136 @@
+header {
+	background-color:black;
+	border: 0.13em;
+}
+body {
+	background-color: grey;
+	background-image: ;
+	
+}
+/*password is Electric1% for ElectricWebsite1421*/
+/*nil is short for navigation image left*/
+img.nil	{
+	width: 3em;
+	height: 4em;
+}
+/*nif is short for navigation image footer*/
+img.nif	{
+	width: 2em;
+	height: 2em;
+}
+img.nil:hover{
+	width: 4em;
+	height: 4em;
+}
+/*fal means footer acual link*/
+li a.fal {
+	display:inline;
+	font-family: "Times new Roman", sans-serif;
+	font-size: 30;
+	float: left;
+	background-color: white;
+	width: 2.5em;
+	height: 1em;
+}
+/*mta is main text align*/
+article.mta {
+
+	padding: 1.25em;
+	overflow: hidden;
+	width: 50%;
+}
+aside.lta {
+	padding: 0.9375em;
+	overflow: hidden;
+	width: -10%;
+	text-align: right;
+}
+div.maintext {
+	background-image: ;
+	
+	
+}
+p.fcr {
+	text-align:center;
+}
+nav.upper {
+	overflow: hidden;
+	
+	border: 0.9em #000000;
+}
+nav.left {
+	background-color: green;
+	width: 35%;
+	overflow: hidden;
+}
+li.right {
+	width: 15%;
+	overflow: hidden;
+}
+ul {
+	list-style-type:none;
+	padding: 0.5em;
+	background-color:White;
+	border: 0.125em grey;
+}
+/*luh is short for left upper header*/
+li a.luh:hover {
+	background-color:black;
+}
+/*lan is short for left aligned header*/
+
+}
+li a.lab:hover {
+	background-color:black;
+}
+	
+li a.luh {
+	display:block;
+	font-family: "Times new Roman", sans-serif;
+	font-size: 30;
+	float: left;
+	background-color: white;
+	width: 4em;
+	height: 1.5em;
+	text-decoration: none;
+	color: green;
+}
+/* mnb media navigation bar */
+/*lan stands for left aligned navigation bar*/
+li a.lan {
+	display:block;
+	font-family: "Times new Roman", sans-serif;
+	font-size: 30;
+	float: left;
+	background-color: green;
+	width: 4em;
+	height: 4em;
+	padding: 0.4em 0.125em;
+}
+
+/*lab stands for left aligned bar nav*/
+li a.lab {
+	display:block;
+	font-family: "Times new Roman", sans-serif;
+	font-size: 100;
+	width: 6em 2.5%;
+	height: 6em;
+	padding: 1em;
+	margin-right: 10.625em;
+	margin: 0.1em;
+}
+/*ruv is right upper video*/
+aside.ruv {
+	text-align: left-align;
+	border: 10.9375em 3%;
+	width: 3%;
+}
+/*lnb is left navigation-bar*/
+aside.lnb {
+	width: 3%;
+	height:;
+}
+footer {
+	background-color: #ffffff;
+	padding: none;
+}
